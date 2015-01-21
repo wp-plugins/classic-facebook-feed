@@ -24,14 +24,17 @@ Classic Facebook Feed is a plugin for display facebook feed on your blog or site
 
 
 <h4>Shortcode :</h4>
-1. By Page Username <code>[classic-facebook-feed username="anshullabs" post_limit="10"]</code> 
-2. By Page Id <code>[classic-facebook-feed user_id="566809570004880" post_limit="15"]</code>
+1. By Page Username
+<pre>[classic-facebook-feed username="anshullabs" post_limit="10"]</pre> 
 
- Here <code>post_limit</code> is display post limit. default value is 10 post.
+2. By Page Id
+<pre>[classic-facebook-feed user_id="566809570004880" post_limit="15"]</pre>
 
- <a href="http://www.anshullabs.host-ed.me/classic-facebook-feed/" title="Demo Link">Demo Link</a>
+Here <pre>post_limit</pre> is display post limit. default value is 10 post.
+
+<a href="http://www.anshullabs.host-ed.me/classic-facebook-feed/" title="Demo Link">Demo Link</a>
 	
-We have 24/7 Active Support so you can let us know if you are having any kind of issue with configuring our extension.
+We have 24/7 Active Support so you can let us know if you are having any kind of issue with configuring our plugin.
 In case you face any problem, <a href="mailto:me@anshullabs.com" title="Contact US">Contact us</a>.
 
 == Installation ==
@@ -44,11 +47,12 @@ In case you face any problem, <a href="mailto:me@anshullabs.com" title="Contact 
 = 1) How to Use ? =
 <b>Answer :</b> Just Use shorcode, There are 2 type to get facebook feed by Page username Or Page Id . <br>
 <b>Example : </b> <br>
-1. By Page Username <code>[classic-facebook-feed username="anshullabs" post_limit="10"]</code>
+1. By Page Username
+<pre>[classic-facebook-feed username="anshullabs" post_limit="10"]</pre>
 <br>
-2. By Page Id <code>[classic-facebook-feed user_id="566809570004880" post_limit="15"]</code>
+2. By Page Id <pre>[classic-facebook-feed user_id="566809570004880" post_limit="15"]</pre>
 <br><br>
-here you can set <code> post_limit </code> for dispaly numbber of facebook feed on page.
+here you can set <pre> post_limit </pre> for dispaly numbber of facebook feed on page.
 
 and You will find 'Classic Facebook Feed' under setting menu in your WordPress admin panel.
 
