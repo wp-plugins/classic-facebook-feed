@@ -1,0 +1,14 @@
+#newsFeed { width:100%; height:auto; padding: 0px 3px 3px 5px; margin-top:3px auto;}
+ul.feedEkList{ list-style:none; padding:10px; margin:0px;}
+ul.feedEkList li{border-bottom:1px solid #D3CAD7;padding-bottom: 15px;}
+h1.itemTitle{  margin-bottom: 10px; }
+.itemTitle a{ text-decoration: none;} 
+.itemContent { padding:1px 3px 3px 3px; color:#3E3E3E;}
+.itemPoston { float: left; margin-right: 10px;  font-size: 13px; }
+.itemDate { font-size:13px; color:#666; }
+.itemContent img { float: left; margin: 0 20px 0 0;}
+.itemBtn{ background-color: #3A5795; border-radius: 2px; color: #fff; float: right; padding: 3px 8px;  text-decoration: none;}
+.itemBtn:hover{text-decoration: none; color: #fff}
+.itemClear{clear: both;}
+
+
