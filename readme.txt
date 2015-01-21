@@ -32,7 +32,7 @@ Classic Facebook Feed is a plugin for display facebook feed on your blog or site
 
 Here <pre>post_limit</pre> is display post limit. default value is 10 post.
 
-<a href="http://www.anshullabs.host-ed.me/classic-facebook-feed/" title="Demo Link">Demo Link</a>
+<a href="http://www.anshullabs.host-ed.me/classic-facebook-feed/" style=" background: #000; padding: 4px 10px; color: #fff; border-radius: 3px;" title="Demo Link">Demo Link</a>
 	
 We have 24/7 Active Support so you can let us know if you are having any kind of issue with configuring our plugin.
 In case you face any problem, <a href="mailto:me@anshullabs.com" title="Contact US">Contact us</a>.
@@ -48,7 +48,7 @@ In case you face any problem, <a href="mailto:me@anshullabs.com" title="Contact 
 <b>Answer :</b> Just Use shorcode, There are 2 type to get facebook feed by Page username Or Page Id . <br>
 <b>Example : </b> <br>
 1. By Page Username
-<pre>[classic-facebook-feed username="anshullabs" post_limit="10"]</pre>
+ <pre>[classic-facebook-feed username="anshullabs" post_limit="10"]</pre>
 <br>
 2. By Page Id <pre>[classic-facebook-feed user_id="566809570004880" post_limit="15"]</pre>
 <br><br>
