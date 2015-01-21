@@ -32,7 +32,7 @@ Classic Facebook Feed is a plugin for display facebook feed on your blog or site
 
 Here <pre>post_limit</pre> is display post limit. default value is 10 post.
 
-<a href="http://www.anshullabs.host-ed.me/classic-facebook-feed/" style=" background: #000; padding: 4px 10px; color: #fff; border-radius: 3px;" title="Demo Link">Demo Link</a>
+<a href="http://www.anshullabs.host-ed.me/classic-facebook-feed/" style=" background: #000; padding: 4px 10px; color: #fff; border-radius: 3px;" title="Demo Link"> Demo Link </a>
 	
 We have 24/7 Active Support so you can let us know if you are having any kind of issue with configuring our plugin.
 In case you face any problem, <a href="mailto:me@anshullabs.com" title="Contact US">Contact us</a>.
