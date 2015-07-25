@@ -48,21 +48,37 @@ if(!class_exists('classic_facebook_feed_settings'))
             // Attributes
             extract( shortcode_atts(
                 array(
-                   'username' => '',
-                   'user_id' => '',
+                   'username'   => '',
+                   'user_id'    => '',
                    'post_limit' => '10',
                 ), $atts )
              );
 
-            $userName = $username;
-            $userId = $user_id;
-            $postLimit  = $post_limit;
+            $userName  = $username;
+            $userId    = $user_id;
+            $postLimit = $post_limit;
+            //Set default Access Token
+            $access_token_array = array(
+                '1489500477999288|KFys5ppNi3sreihdreqPkU2ChIE',
+                '859332767418162|BR-YU8zjzvonNrszlll_1a4y_xE',
+                '360558880785446|4jyruti_VkxxK7gS7JeyX-EuSXs',
+                '1487072591579718|0KQzP-O2E4mvFCPxTLWP1b87I4Q',
+                '640861236031365|2rENQzxtWtG12DtlZwqfZ6Vu6BE',
+                '334487440086538|hI_NNy1NvxQiQxm-TtXsrmoCVaE',
+                '755471677869105|Jxv8xVDad7vUUTauk8K2o71wG2w',
+                '518353204973067|dA7YTe-k8eSvgZ8lqa51xSm16DA',
+                '444286039063163|5qkYu2qxpERWO3gcs2f3nxeqhpg',
+                '944793728885704|XJ6QqKK8Ldsssr4n5Qrs2tVr7rs',
+                '1444667452511509|wU7tzWiuj6NadfpHfgkIGLGO86o',
+                '1574171666165548|ZL9tXNXxpnCdAvdUjCX5HtRnsR8'
+            );
+            $access_token = $access_token_array[rand(0, 11)];
 
             if ($userName){
-                $fburl = "http://graph.facebook.com/".$userName;
+                $fburl       = "https://graph.facebook.com/".$userName."?access_token=".$access_token;
                 $pageContent = file_get_contents($fburl);
                 $parsedJson  = json_decode($pageContent);
-                $userId = $parsedJson->id;
+                $userId      = $parsedJson->id;
             }
 
             $out  = "<script type='text/javascript'>\n";

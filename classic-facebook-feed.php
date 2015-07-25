@@ -3,7 +3,7 @@
 Plugin Name: Classic Facebook Feed
 Plugin URI: http://www.anshullabs.com
 Description: A WordPress Shortcode Plugin for show Latest facebook Feeds from Facebook Fan Page.
-Version: 1.0
+Version: 2.5
 Author: Anshul Gangrade
 Author URI: http://www.anshullabs.com
 License: GPL2
@@ -26,7 +26,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-define('CFF_VERSION', '1.0.0');
+define('CFF_VERSION', '2.5');
 define('CFF_FILE', basename(__FILE__));
 define('CFF_NAME', str_replace('.php', '', CFF_FILE));
 define('CFF_PATH', plugin_dir_path(__FILE__));
@@ -85,5 +85,4 @@ if(class_exists('classic_facebook_feed'))
 
 	// instantiate the plugin class
 	$classic_facebook_feed = new classic_facebook_feed();
-
 }
