@@ -4,7 +4,7 @@ Tags: faceboo, feed, facebook feed, custom feed, display feed, facebook.com, cla
 Donate link: http://goo.gl/8xSU4I
 Requires at least: at least: 3.0.1
 Tested up to: 4.2.3
-Stable tag: 2.0
+Stable tag: 2.5
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
