@@ -3,8 +3,8 @@ Contributors: anshuln90
 Tags: faceboo, feed, facebook feed, custom feed, display feed, facebook.com, classic, show feed, feed url, Rss, feeds, fb feed, fb rss feed
 Donate link: http://goo.gl/8xSU4I
 Requires at least: at least: 3.0.1
-Tested up to: 4.1
-Stable tag: trunk
+Tested up to: 4.2.3
+Stable tag: 2.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,6 +68,9 @@ and You will find 'Classic Facebook Feed' under setting menu in your WordPress a
 == Changelog ==
 1.0.0
 Initial Release.
+
+2.0.0
+Fix some bugs.Now use new facebook graph api.
 
 == Upgrade Notice ==
 Update some bugs in version 1.0.0
