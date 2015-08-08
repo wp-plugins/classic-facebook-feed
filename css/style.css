@@ -1,0 +1,16 @@
+
+
+.feed_left {float: left;}
+.feed_right {float: right;}
+.feed_clear {clear: both;}
+.cff_wrapper .cff_feed {margin: 10px auto; width: 100%;}
+.cff_wrapper .feed_head {float: left; width: 100%;}
+.cff_wrapper .feed_content {float: left; width: 100%; margin: 10px 0}
+.cff_wrapper .feed_meta { float: left;width: 100%;}
+.cff_wrapper .feed_social {background-color: #3a5795;border-radius: 2px; color: #fff; padding: 3px 8px;}
+.cff_wrapper .feed_read_more{width: 28%;}
+.cff_wrapper .read-more-btn{ background-color: #3A5795; border-radius: 2px; color: #fff; float: right; padding: 3px 8px;  text-decoration: none;}
+.cff_wrapper .feed_head h1{margin:0 0 10px ;}
+.cff_wrapper .feed_head h1 a{text-decoration: none; border:none;}
+.cff_wrapper .feed_content img{max-width: 100%;height: auto; width: 100%}
+.feed_divider{border-bottom: 1px solid #888; margin-bottom: 10px; padding-bottom: 10px;}
